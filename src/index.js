@@ -1,1 +1,3 @@
-export * from "./components/TextareaWithCoordinates";
+import TextareaWithCoordinates from "./components/TextareaWithCoordinates";
+
+export default TextareaWithCoordinates;

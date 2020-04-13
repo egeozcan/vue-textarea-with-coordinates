@@ -1,6 +1,7 @@
 {
   "name": "vue-textarea-with-coordinates",
-  "version": "0.2.0",
+  "version": "0.2.1",
+  "repository": "https://github.com/egeozcan/vue-textarea-with-coordinates",
   "main": "dist/vue-textarea-with-coordinates.umd.js",
   "module": "dist/vue-textarea-with-coordinates.common.js",
   "unpkg": "dist/vue-textarea-with-coordinates.umd.min.js",

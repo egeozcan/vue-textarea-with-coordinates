@@ -91,6 +91,9 @@ export default {
 
     this.resizeObserver.unobserve(this.$refs.pad);
   },
+  updated() {
+    this.value = this.initialValue;
+  },
   methods: {
     updateCoordinates(e = {}) {
       const target = e.target ?? this.$refs.pad;

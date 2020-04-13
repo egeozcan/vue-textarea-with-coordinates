@@ -14,7 +14,7 @@ npm run serve
 
 ### Build module
 ```
-npm run module
+npm run package
 ```
 
 ### Lints and fixes files

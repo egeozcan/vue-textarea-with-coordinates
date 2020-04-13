@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <TextareaWithCoordinates :key="value" :initial-value="value">
-      <template v-slot:default="{ coordinates, value }">
-        <span class="tracker" :style="{ left: coordinates.left + 'px', top: coordinates.top + 'px' }">
-          {{ JSON.stringify(coordinates) }} {{ JSON.stringify(value) }}
+      <template v-slot:default="{ coordinates, value, sizeData, hasFocus, selection }">
+        <span v-if="hasFocus" class="tracker" :style="{ left: coordinates.left + 'px', top: coordinates.top + 'px' }">
+          {{ JSON.stringify(coordinates) }} {{ JSON.stringify(selection) }} {{ JSON.stringify(value) }} {{ JSON.stringify(sizeData) }}
         </span>
       </template>
     </TextareaWithCoordinates>
@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      value: "dddd"
+      value: "test"
     }
   }
 }

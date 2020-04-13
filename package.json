@@ -1,12 +1,13 @@
 {
   "name": "vue-textarea-with-coordinates",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/vue-textarea-with-coordinates.umd.js",
   "module": "dist/vue-textarea-with-coordinates.common.js",
   "unpkg": "dist/vue-textarea-with-coordinates.umd.min.js",
   "browser": {
     "./sfc": "src/my-component.vue"
   },
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve ./src/main.js",
     "package": "vue-cli-service build --mode package --target lib ./src/index.js",

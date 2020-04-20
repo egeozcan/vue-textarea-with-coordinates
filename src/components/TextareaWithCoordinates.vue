@@ -94,6 +94,11 @@ export default {
   methods: {
     updateCoordinates(e = {}) {
       const target = e.target ?? this.$refs.pad;
+
+      if (!target) {
+        return;
+      }
+
       this.selection.start = target.selectionStart;
       this.selection.end = target.selectionEnd;
       this.coordinates = getCaretCoordinates(target, target.selectionEnd);

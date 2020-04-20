@@ -1,6 +1,6 @@
 # vue-textarea-with-coordinates
 
-A textarea that provides the caret coordinates and its value to the default slot, as well as generates events.
+A textarea that provides the caret coordinates and its value to the default slot, as well as generating events.
 
 ## Project setup
 ```
